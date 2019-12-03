@@ -1,0 +1,32 @@
+body {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:link,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+svg {
+  background: rgb(30,77,137);
+  background: radial-gradient(circle, rgba(30,77,137,1) 0%, rgba(1,14,43,1) 100%);
+}
+
+.country {
+  fill: #267abb;
+  fill-opacity: 0.5;
+  stroke: #51f8ff;
+  stroke-width: 0.5;
+}
+
+.city-circle {
+  fill: #ffd8c8;
+  fill-opacity: 1;
+}
